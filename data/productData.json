@@ -1,0 +1,398 @@
+{
+    "id": "35b0fe9e-c3ce-4905-b0bf-e933d58e8874",
+    "version": 1,
+    "versionModifiedAt": "2023-10-24T08:52:08.799Z",
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2023-10-24T08:52:08.799Z",
+    "lastModifiedAt": "2023-10-24T08:52:08.799Z",
+    "lastModifiedBy": {
+        "isPlatformClient": true,
+        "user": {
+            "typeId": "user",
+            "id": "64ac6875-4b48-4dd6-82ed-9f1f5eaac4d5"
+        }
+    },
+    "createdBy": {
+        "isPlatformClient": true,
+        "user": {
+            "typeId": "user",
+            "id": "64ac6875-4b48-4dd6-82ed-9f1f5eaac4d5"
+        }
+    },
+    "productType": {
+        "typeId": "product-type",
+        "id": "29dad864-d35b-4b91-8c96-a74d9f9e5737"
+    },
+    "masterData": {
+        "current": {
+            "name": {
+                "en-US": "Indoor Jute Planter",
+                "en-GB": "Indoor Jute Planter",
+                "de-DE": "Indoor Jute Blumentopf "
+            },
+            "description": {
+                "en-GB": "An indoor jute planter for plants is a decorative and eco-friendly way to display greenery in your home. The planter is made from natural jute fibers, which are woven into a sturdy and breathable container for your plants.  The neutral color of the jute fibers complements the natural color of plants, making them stand out beautifully.  The jute fibers of the planter are absorbent, allowing for proper drainage and air circulation for the plant roots. This helps to prevent root rot and other soil-borne diseases, ensuring healthy plant growth.  Overall, an indoor jute planter is a charming and practical way to bring a touch of nature into your home, while also being kind to the planet.",
+                "en-US": "An indoor jute planter for plants is a decorative and eco-friendly way to display greenery in your home. The planter is made from natural jute fibers, which are woven into a sturdy and breathable container for your plants.  The neutral color of the jute fibers complements the natural color of plants, making them stand out beautifully.  The jute fibers of the planter are absorbent, allowing for proper drainage and air circulation for the plant roots. This helps to prevent root rot and other soil-borne diseases, ensuring healthy plant growth.  Overall, an indoor jute planter is a charming and practical way to bring a touch of nature into your home, while also being kind to the planet.",
+                "de-DE": "Ein Indoor-Blumentopf für Pflanzen ist eine dekorative und umweltfreundliche Möglichkeit, Pflanzen in Ihrem Zuhause zu präsentieren. Der Blumentopf besteht aus natürlichen Jutefasern, die zu einem robusten und atmungsaktiven Behälter für Ihre Pflanzen verwoben sind. Die neutrale Farbe der Jutefasern ergänzt die natürliche Farbe der Pflanzen und lässt sie schön zur Geltung kommen. Die Jutefasern des Blumentopfes sind saugfähig und ermöglichen eine ordnungsgemäße Entwässerung und Luftzirkulation für die Pflanzenwurzeln. Dies trägt dazu bei, Wurzelfäule und andere bodenbürtige Krankheiten zu verhindern und ein gesundes Pflanzenwachstum zu gewährleisten. Insgesamt ist ein Blumentopf aus Jute für den Innenbereich eine charmante und praktische Möglichkeit, einen Hauch von Natur in Ihr Zuhause zu bringen und gleichzeitig die Umwelt zu schonen."
+            },
+            "categories": [
+                {
+                    "typeId": "category",
+                    "id": "575e0834-f50f-4da6-9f40-cbc80d701eca"
+                },
+                {
+                    "typeId": "category",
+                    "id": "b67efa7b-d7be-49e4-8ed9-4b6d184b178f"
+                },
+                {
+                    "typeId": "category",
+                    "id": "70b8b400-4542-4353-89cd-8cab7fcf12c3"
+                }
+            ],
+            "categoryOrderHints": {},
+            "slug": {
+                "en-US": "indoor-jute-planter",
+                "en-GB": "indoor-jute-planter",
+                "de-DE": "indoor-jute-planter"
+            },
+            "masterVariant": {
+                "id": 1,
+                "sku": "IJP-03",
+                "prices": [
+                    {
+                        "id": "6b10294c-cb38-44c7-bc5d-6d6aab7ca696",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "EUR",
+                            "centAmount": 3299,
+                            "fractionDigits": 2
+                        },
+                        "country": "DE"
+                    },
+                    {
+                        "id": "3d640eb6-833e-4b51-823d-136f0ebc29a1",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "GBP",
+                            "centAmount": 3299,
+                            "fractionDigits": 2
+                        },
+                        "country": "GB"
+                    },
+                    {
+                        "id": "713b47d2-2a4e-4f65-8be2-a36ace8811c2",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "USD",
+                            "centAmount": 3299,
+                            "fractionDigits": 2
+                        },
+                        "country": "US"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://2eca75039cf911b9bbe5-79bfd3e36f011d786971804e873c4354.ssl.cf3.rackcdn.com/AdobeStock_419644892-f445UIr6.jpeg",
+                        "dimensions": {
+                            "w": 5000,
+                            "h": 5000
+                        }
+                    }
+                ],
+                "attributes": [
+                    {
+                        "name": "productspec",
+                        "value": {
+                            "en-GB": "- Plant not included",
+                            "en-US": "- Plant not included",
+                            "de-DE": "- Pflanze nicht im Lieferumfang enthalten"
+                        }
+                    },
+                    {
+                        "name": "size",
+                        "value": {
+                            "en-GB": "Large"
+                        }
+                    },
+                    {
+                        "name": "color-filter",
+                        "value": {
+                            "key": "#000",
+                            "label": {
+                                "de-DE": "Schwarz",
+                                "en-GB": "Black",
+                                "en-US": "Black"
+                            }
+                        }
+                    }
+                ],
+                "assets": []
+            },
+            "variants": [
+                {
+                    "id": 2,
+                    "sku": "IJP-04",
+                    "prices": [
+                        {
+                            "id": "fdd13769-17f5-457f-8c04-6cd11d4053e5",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "EUR",
+                                "centAmount": 1999,
+                                "fractionDigits": 2
+                            },
+                            "country": "DE"
+                        },
+                        {
+                            "id": "776c847c-ab60-4795-bb70-4ccc62da83c2",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "GBP",
+                                "centAmount": 1999,
+                                "fractionDigits": 2
+                            },
+                            "country": "GB"
+                        },
+                        {
+                            "id": "51b43143-6f2c-417d-982c-4c61f6df99c6",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1999,
+                                "fractionDigits": 2
+                            },
+                            "country": "US"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "url": "https://2eca75039cf911b9bbe5-79bfd3e36f011d786971804e873c4354.ssl.cf3.rackcdn.com/AdobeStock_446433445-GNpBuLn-.jpeg",
+                            "dimensions": {
+                                "w": 5000,
+                                "h": 5000
+                            }
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "name": "productspec",
+                            "value": {
+                                "en-GB": "- Plant not included",
+                                "en-US": "- Plant not included",
+                                "de-DE": "- Pflanze nicht im Lieferumfang enthalten"
+                            }
+                        },
+                        {
+                            "name": "size",
+                            "value": {
+                                "en-GB": "Small"
+                            }
+                        },
+                        {
+                            "name": "color-filter",
+                            "value": {
+                                "key": "#000",
+                                "label": {
+                                    "de-DE": "Schwarz",
+                                    "en-GB": "Black",
+                                    "en-US": "Black"
+                                }
+                            }
+                        }
+                    ],
+                    "assets": []
+                }
+            ],
+            "searchKeywords": {}
+        },
+        "staged": {
+            "name": {
+                "en-US": "Indoor Jute Planter",
+                "en-GB": "Indoor Jute Planter",
+                "de-DE": "Indoor Jute Blumentopf "
+            },
+            "description": {
+                "en-GB": "An indoor jute planter for plants is a decorative and eco-friendly way to display greenery in your home. The planter is made from natural jute fibers, which are woven into a sturdy and breathable container for your plants.  The neutral color of the jute fibers complements the natural color of plants, making them stand out beautifully.  The jute fibers of the planter are absorbent, allowing for proper drainage and air circulation for the plant roots. This helps to prevent root rot and other soil-borne diseases, ensuring healthy plant growth.  Overall, an indoor jute planter is a charming and practical way to bring a touch of nature into your home, while also being kind to the planet.",
+                "en-US": "An indoor jute planter for plants is a decorative and eco-friendly way to display greenery in your home. The planter is made from natural jute fibers, which are woven into a sturdy and breathable container for your plants.  The neutral color of the jute fibers complements the natural color of plants, making them stand out beautifully.  The jute fibers of the planter are absorbent, allowing for proper drainage and air circulation for the plant roots. This helps to prevent root rot and other soil-borne diseases, ensuring healthy plant growth.  Overall, an indoor jute planter is a charming and practical way to bring a touch of nature into your home, while also being kind to the planet.",
+                "de-DE": "Ein Indoor-Blumentopf für Pflanzen ist eine dekorative und umweltfreundliche Möglichkeit, Pflanzen in Ihrem Zuhause zu präsentieren. Der Blumentopf besteht aus natürlichen Jutefasern, die zu einem robusten und atmungsaktiven Behälter für Ihre Pflanzen verwoben sind. Die neutrale Farbe der Jutefasern ergänzt die natürliche Farbe der Pflanzen und lässt sie schön zur Geltung kommen. Die Jutefasern des Blumentopfes sind saugfähig und ermöglichen eine ordnungsgemäße Entwässerung und Luftzirkulation für die Pflanzenwurzeln. Dies trägt dazu bei, Wurzelfäule und andere bodenbürtige Krankheiten zu verhindern und ein gesundes Pflanzenwachstum zu gewährleisten. Insgesamt ist ein Blumentopf aus Jute für den Innenbereich eine charmante und praktische Möglichkeit, einen Hauch von Natur in Ihr Zuhause zu bringen und gleichzeitig die Umwelt zu schonen."
+            },
+            "categories": [
+                {
+                    "typeId": "category",
+                    "id": "575e0834-f50f-4da6-9f40-cbc80d701eca"
+                },
+                {
+                    "typeId": "category",
+                    "id": "b67efa7b-d7be-49e4-8ed9-4b6d184b178f"
+                },
+                {
+                    "typeId": "category",
+                    "id": "70b8b400-4542-4353-89cd-8cab7fcf12c3"
+                }
+            ],
+            "categoryOrderHints": {},
+            "slug": {
+                "en-US": "indoor-jute-planter",
+                "en-GB": "indoor-jute-planter",
+                "de-DE": "indoor-jute-planter"
+            },
+            "masterVariant": {
+                "id": 1,
+                "sku": "IJP-03",
+                "prices": [
+                    {
+                        "id": "6b10294c-cb38-44c7-bc5d-6d6aab7ca696",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "EUR",
+                            "centAmount": 3299,
+                            "fractionDigits": 2
+                        },
+                        "country": "DE"
+                    },
+                    {
+                        "id": "3d640eb6-833e-4b51-823d-136f0ebc29a1",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "GBP",
+                            "centAmount": 3299,
+                            "fractionDigits": 2
+                        },
+                        "country": "GB"
+                    },
+                    {
+                        "id": "713b47d2-2a4e-4f65-8be2-a36ace8811c2",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "USD",
+                            "centAmount": 3299,
+                            "fractionDigits": 2
+                        },
+                        "country": "US"
+                    }
+                ],
+                "images": [
+                    {
+                        "url": "https://2eca75039cf911b9bbe5-79bfd3e36f011d786971804e873c4354.ssl.cf3.rackcdn.com/AdobeStock_419644892-f445UIr6.jpeg",
+                        "dimensions": {
+                            "w": 5000,
+                            "h": 5000
+                        }
+                    }
+                ],
+                "attributes": [
+                    {
+                        "name": "productspec",
+                        "value": {
+                            "en-GB": "- Plant not included",
+                            "en-US": "- Plant not included",
+                            "de-DE": "- Pflanze nicht im Lieferumfang enthalten"
+                        }
+                    },
+                    {
+                        "name": "size",
+                        "value": {
+                            "en-GB": "Large"
+                        }
+                    },
+                    {
+                        "name": "color-filter",
+                        "value": {
+                            "key": "#000",
+                            "label": {
+                                "de-DE": "Schwarz",
+                                "en-GB": "Black",
+                                "en-US": "Black"
+                            }
+                        }
+                    }
+                ],
+                "assets": []
+            },
+            "variants": [
+                {
+                    "id": 2,
+                    "sku": "IJP-04",
+                    "prices": [
+                        {
+                            "id": "fdd13769-17f5-457f-8c04-6cd11d4053e5",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "EUR",
+                                "centAmount": 1999,
+                                "fractionDigits": 2
+                            },
+                            "country": "DE"
+                        },
+                        {
+                            "id": "776c847c-ab60-4795-bb70-4ccc62da83c2",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "GBP",
+                                "centAmount": 1999,
+                                "fractionDigits": 2
+                            },
+                            "country": "GB"
+                        },
+                        {
+                            "id": "51b43143-6f2c-417d-982c-4c61f6df99c6",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1999,
+                                "fractionDigits": 2
+                            },
+                            "country": "US"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "url": "https://2eca75039cf911b9bbe5-79bfd3e36f011d786971804e873c4354.ssl.cf3.rackcdn.com/AdobeStock_446433445-GNpBuLn-.jpeg",
+                            "dimensions": {
+                                "w": 5000,
+                                "h": 5000
+                            }
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "name": "productspec",
+                            "value": {
+                                "en-GB": "- Plant not included",
+                                "en-US": "- Plant not included",
+                                "de-DE": "- Pflanze nicht im Lieferumfang enthalten"
+                            }
+                        },
+                        {
+                            "name": "size",
+                            "value": {
+                                "en-GB": "Small"
+                            }
+                        },
+                        {
+                            "name": "color-filter",
+                            "value": {
+                                "key": "#000",
+                                "label": {
+                                    "de-DE": "Schwarz",
+                                    "en-GB": "Black",
+                                    "en-US": "Black"
+                                }
+                            }
+                        }
+                    ],
+                    "assets": []
+                }
+            ],
+            "searchKeywords": {}
+        },
+        "published": true,
+        "hasStagedChanges": false
+    },
+    "key": "indoor-jute-planter",
+    "taxCategory": {
+        "typeId": "tax-category",
+        "id": "e878efed-6076-4ba4-bf54-f3df49224e2c"
+    },
+    "lastVariantId": 2
+}

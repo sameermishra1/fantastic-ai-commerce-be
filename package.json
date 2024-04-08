@@ -12,12 +12,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@commercetools/platform-sdk": "^7.6.0",
+    "@commercetools/sdk-client-v2": "^2.4.0",
+    "@commercetools/sdk-middleware-auth": "^7.0.1",
+    "@commercetools/sdk-middleware-http": "^7.0.4",
     "axios": "^1.6.8",
-    "express": "^4.19.2"
+    "class-transformer": "^0.5.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.12.5",
+    "@types/node-fetch": "^2.6.11",
+    "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.4"
   }
