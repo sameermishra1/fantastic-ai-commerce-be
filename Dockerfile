@@ -6,8 +6,6 @@ WORKDIR /app
 
 # Copy package.json and package-lock.json into the directory
 COPY package*.json ./
-# Copy .env file into the container
-COPY .env ./
 # Install the project dependencies
 RUN npm install
 

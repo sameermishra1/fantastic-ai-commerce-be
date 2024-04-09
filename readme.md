@@ -22,6 +22,8 @@ cd fantastic-ai-commerce-be
 3. Install the dependencies:
 npm install
 
+##
+create an .env files using the .env_mock and update the values
 
 ## Running the Application
 
@@ -35,8 +37,9 @@ To run the tests, run:
 npm test
 
 
-## Buidling a docker
+## Buidling and running a docker container
 docker build -t fantastic-ai-commerce-be .
+docker run --env-file .env -p 5000:5000 fantastic-ai-commerce-be
 
 ## Built With
 
