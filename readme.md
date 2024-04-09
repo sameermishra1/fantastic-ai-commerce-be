@@ -35,6 +35,9 @@ To run the tests, run:
 npm test
 
 
+## Buidling a docker
+docker build -t fantastic-ai-commerce-be .
+
 ## Built With
 
 - [Node.js](https://nodejs.org/) - The runtime environment
