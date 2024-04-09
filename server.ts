@@ -3,8 +3,12 @@ import helloRoutes from './routes/helloRoutes';
 import productRoutes from './routes/productRoute';
 import { apiRoot } from './builders/commercetoolsBuilder';
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
+/**
+ * Retrieves the project from the API root.
+ * @returns {Promise<any>} A promise that resolves to the project data.
+ */
 const getProject = () => {
     return apiRoot
       .get()

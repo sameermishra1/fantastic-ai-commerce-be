@@ -12,7 +12,7 @@ class TypeId {
 //   'en-US'?: string;
 // }
 
-class Price {
+export class Price {
   id!: string;
   @Expose() value!: {
     type: string;
@@ -49,7 +49,7 @@ class Availability {
   };
 }
 
-class Variant {
+export class Variant {
   @Expose() id!: number;
   @Expose() sku!: string;
   @Expose() prices?: Price[];
