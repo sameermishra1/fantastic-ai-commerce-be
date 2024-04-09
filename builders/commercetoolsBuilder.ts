@@ -56,5 +56,4 @@ export const ctpClient = new ClientBuilder()
   .build();
 
     // Create apiRoot from the imported ClientBuilder and include your Project key
-export const apiRoot = createApiBuilderFromCtpClient(ctpClient)
-.withProjectKey({ projectKey: projectKey });
+export const apiRoot = createApiBuilderFromCtpClient(ctpClient).withProjectKey({ projectKey: projectKey });

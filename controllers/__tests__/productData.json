@@ -64,7 +64,7 @@
                         "value": {
                             "type": "centPrecision",
                             "currencyCode": "EUR",
-                            "centAmount": 3299,
+                            "centAmount": 3219,
                             "fractionDigits": 2
                         },
                         "country": "DE"

@@ -14,7 +14,11 @@ export const getProductById = async (req: Request, res: Response) => {
 const id = req.params.id;
 const locale = req.query.locale as string; // Get the user's language from the query parameters
 const country = req.query.country as string; // Get the user's country from the query parameters
-
+//check for id, locale and country and if invalid then send error response
+if (!id || !locale || !country) {
+    res.status(400).send('Invalid request');
+    return;
+  }
   //use the apiRoot to get the product by id
   apiRoot.products().withId({ ID: id }).get().execute().then((response) => {
     //send the response back to the client
@@ -37,7 +41,7 @@ const country = req.query.country as string; // Get the user's country from the 
  * @param locale - The user's locale.
  * @returns The transformed product data.
  */
-function transformProductData(product: any, id: string, locale: string, country: string): ProductData {
+export function transformProductData(product: any, id: string, locale: string, country: string): ProductData {
   const productModel = plainToClass(ProductData, product, { excludeExtraneousValues: true });
   selectPriceByCountry(product, country, productModel); // Select the price based on the user's country
   const pickValueByLocale = (data: any, locale: string) => {
@@ -105,11 +109,9 @@ function selectPriceByCountry(product: any, country: string, productModel: Produ
     //filter the prices based on the user's country and get a list of filterd prices
     variants?.forEach((variant: Variant) => {
         const filteredPricesVariant = variant.prices?.filter((price: Price) => price.country === country);
-        console.log(filteredPricesVariant);
         //save filtered prices on variants
         variant.prices = filteredPricesVariant;
         filteredVariants.push(variant);
     });
-    product.masterData.current.variants = filteredVariants;
-
+    productModel.masterData.current.variants = filteredVariants;
     }
