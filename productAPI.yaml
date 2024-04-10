@@ -1,0 +1,174 @@
+openapi: 3.0.0
+info:
+  title: Product API
+  version: 1.0.0
+paths:
+  /products/{id}:
+    get:
+      summary: Get a product by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The ID of the product.
+        - name: locale
+          in: query
+          schema:
+            type: string
+          description: The locale of the user.
+        - name: country
+          in: query
+          schema:
+            type: string
+          description: The country of the user.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductData'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+components:
+  schemas:
+    TypeId:
+      type: object
+      properties:
+        typeId:
+          type: string
+        id:
+          type: string
+    Value:
+      type: object
+      properties:
+        type:
+          type: string
+        currencyCode:
+          type: string
+        centAmount:
+          type: integer
+        fractionDigits:
+          type: integer
+    Price:
+      type: object
+      properties:
+        id:
+          type: string
+        value:
+          $ref: '#/components/schemas/Value'
+        country:
+          type: string
+    Dimensions:
+      type: object
+      properties:
+        w:
+          type: integer
+        h:
+          type: integer
+    ProductImage:
+      type: object
+      properties:
+        url:
+          type: string
+        dimensions:
+          $ref: '#/components/schemas/Dimensions'
+    Attribute:
+      type: object
+      properties:
+        name:
+          type: string
+        value:
+          type: string
+    Asset:
+      type: object
+      properties:
+        id:
+          type: string
+        sources:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductImage'
+    Channels:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          availableQuantity:
+            type: integer
+    Availability:
+      type: object
+      properties:
+        channels:
+          $ref: '#/components/schemas/Channels'
+    Variant:
+      type: object
+      properties:
+        id:
+          type: integer
+        sku:
+          type: string
+        prices:
+          type: array
+          items:
+            $ref: '#/components/schemas/Price'
+        images:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductImage'
+        attributes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Attribute'
+        assets:
+          type: array
+          items:
+            $ref: '#/components/schemas/Asset'
+        availability:
+          $ref: '#/components/schemas/Availability'
+    Current:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/TypeId'
+        slug:
+          type: string
+        masterVariant:
+          $ref: '#/components/schemas/Variant'
+        variants:
+          type: array
+          items:
+            $ref: '#/components/schemas/Variant'
+    MasterData:
+      type: object
+      properties:
+        current:
+          $ref: '#/components/schemas/Current'
+    ProductData:
+      type: object
+      properties:
+        id:
+          type: string
+        key:
+          type: string
+        productType:
+          $ref: '#/components/schemas/TypeId'
+        taxCategory:
+          $ref: '#/components/schemas/TypeId'
+        masterData:
+          $ref: '#/components/schemas/MasterData'
