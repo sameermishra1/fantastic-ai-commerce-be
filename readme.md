@@ -30,6 +30,13 @@ create an .env files using the .env_mock and update the values
 To start the application, run:
 npm start
 
+## Handling CORS
+
+Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin.
+
+This project uses the `cors` middleware to handle CORS. If you want to restrict access to specific origins, you can modify the `cors` configuration in the server file.
+
+Here's how the `cors` middleware is applied in the server file:
 
 ## Running the Tests
 

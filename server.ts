@@ -1,8 +1,10 @@
 import express from 'express';
+import cors from 'cors';
 import helloRoutes from './routes/helloRoutes';
 import productRoutes from './routes/productRoute';
 import { apiRoot } from './builders/commercetoolsBuilder';
 const app = express();
+app.use(cors()); // Apply CORS middleware
 const port = process.env.PORT || 5000;
 
 /**
